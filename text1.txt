@@ -1,0 +1,27 @@
+public class Test1{
+
+//题目：有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？ 
+
+	String[] arr = {"1","2","3","4"};
+
+	String oneCombination="";
+	for (int i=0; i< arr.length;i++){
+		oneCombination +=arr[i];
+		for(int j=0; j< arr.length; j++){
+			if(oneCombination.contains(arr[j]))	continue;
+			else {
+				oneCombination +=arr[j];
+			}
+		}
+		hashset.put(Integer.parseInt(oneCombination));
+	}
+}
+
+
+
+版本控制
+
+比较文件的不同
+Windows:命令行 FC game_old.js game_new.js
+git-bash:  diff -u game_old.js game_new.js
+- 旧的文件不见的, + 新的文件增加的
