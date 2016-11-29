@@ -1,3 +1,5 @@
+
+
 What happens when you initialize a repository? Why do you need to do it?
 
 it creates a .git file, because I want to track the changes I made
@@ -5,3 +7,21 @@ it creates a .git file, because I want to track the changes I made
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 it's a temporary stage all changes
+
+How can you use the staging area to make sure you have one commit per logical change?
+add the changes one by one and commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when I need to test on different ideas, I can go back to the previous one or start a new branch
+
+
+How do the diagrams help you visualize the branch structure?
+easily show the branch and master branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+combine both changes
+
+What are the pros and cons of Git¡¯s automatic merging vs. always doing merges manually?
+save effort vs resolve problem
+
+When would you want to use a remote repository rather than keeping all your work local?
